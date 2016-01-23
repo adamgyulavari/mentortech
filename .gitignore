@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# db and static django
+db.sqlite3
+/static
+
 # Distribution / packaging
 .Python
 env/
@@ -17,6 +21,7 @@ eggs/
 .eggs/
 lib/
 lib64/
+mtenv/
 parts/
 sdist/
 var/
